@@ -27,6 +27,16 @@ Notes:
 - Logistic regression is a classification algorithm, used to predict the probability of a specific outcome. In
   scikit-learn we train the logistic regression model with model.fit(x_train, y_train).
 
+Key Numbers:
+
+- single_feature_model accuracy: 95.54%
+- logistic_regression_model accuracy: 100.00%
+- final_logistic_regression_model accuracy: 97.37%
+- logistic_regression_model cross validation score: 97.39%
+- random_forest_model cross validation score: 95.61%
+
+
+
 Source:
 
 - [Intro to Machine Learning with Python Course - The Iris Dataset](https://www.youtube.com/playlist?list=PLMAyPTgGwv2DUV6DZib9eMetsTTX87JNr)

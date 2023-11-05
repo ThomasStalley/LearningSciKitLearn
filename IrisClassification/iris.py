@@ -54,7 +54,7 @@ y_test = iris_test_dataframe["target"].values
 finaL_logistic_regression_model.fit(x_train, y_train)
 y_final_predictions = finaL_logistic_regression_model.predict(x_test)
 final_model_accuracy = np.mean(y_final_predictions == y_test)
-final_model_score = f"finaL_logistic_regression_model accuracy: {final_model_accuracy * 100:.2f}%\n"
+final_model_score = f"final_logistic_regression_model accuracy: {final_model_accuracy * 100:.2f}%\n"
 print(final_model_score)
 
 predictions_dataframe = iris_test_dataframe.copy()
