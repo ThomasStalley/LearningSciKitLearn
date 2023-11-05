@@ -27,6 +27,14 @@ Notes:
 - Skewed data columns can be transformed with log function, for normality, scale reduction, reduced outlier impact and
   better represent proportional changes.
 
+Model Accuracies:
+
+- linear_regression_model: 65.62%
+- scaled_linear_regression_model: 65.62%
+- random_forest_model: 80.34%
+- scaled_random_forest_model: 80.24%
+- cleam_random_forest_model: 80.38%
+
 Source:
 
 - Course: [House Price Prediction in Python](https://www.youtube.com/watch?v=Wqmtf9SA_kk)

@@ -90,4 +90,4 @@ clean_y_test_data = clean_test_data["median_house_value"]
 clean_random_forest_model = RandomForestRegressor()
 clean_random_forest_model.fit(clean_x_train_data, clean_y_train_data)
 clean_random_forest_model_score = clean_random_forest_model.score(clean_x_test_data, clean_y_test_data)
-print(f"final_random_forest_model_score score: {100 * clean_random_forest_model_score:.2f}%")
+print(f"clean_random_forest_model score: {100 * clean_random_forest_model_score:.2f}%")
