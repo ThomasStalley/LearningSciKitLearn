@@ -24,6 +24,8 @@ Notes:
 - Regularization is a key parameter, it is how much flexibility we give to our model, to fit all given data.
 - We want to avoid overfitting, which is where the model learns the underlying patterns (and noise) in our training
   data. Patterns and noise will likely not exist in real life data.
+- Logistic regression is a classification algorithm, used to predict the probability of a specific outcome. In
+  scikit-learn we train the logistic regression model with model.fit(x_train, y_train).
 
 Source:
 
