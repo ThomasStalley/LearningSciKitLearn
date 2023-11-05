@@ -10,6 +10,7 @@ species_mapping = {0: "setosa", 1: "versicolor", 2: "virginica"}
 iris_dataset = datasets.load_iris()
 iris_dataframe = pd.DataFrame(data=iris_dataset["data"], columns=iris_dataset["feature_names"])
 iris_dataframe["target"] = iris_dataset["target"]
+print(iris_dataframe.info())
 iris_dataframe['target_name'] = iris_dataframe['target'].map(species_mapping)
 
 # Split data into training data and test data, then split test data into x and y:

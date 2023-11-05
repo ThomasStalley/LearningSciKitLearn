@@ -4,11 +4,13 @@ Goal:
 
 - To classify type of Iris flower, given four flower feature measurements, using logistic regression.
 
-Iris data:
+Iris data cols:
 
-- Counts: 50 setosa, 50 versicolor, 50 virginica.
-- ID's: 0 = setosa, 1 = versicolor, 2 = virginica.
-- Measurements: sepal length, sepal width, petal length, petal width.
+- sepal length (cm)
+- sepal width (cm)
+- petal length (cm)
+- petal width (cm)
+- target
 
 Notes:
 
@@ -34,8 +36,6 @@ Key Numbers:
 - final_logistic_regression_model accuracy: 97.37%
 - logistic_regression_model cross validation score: 97.39%
 - random_forest_model cross validation score: 95.61%
-
-
 
 Source:
 

@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from IrisClassification.iris import iris_dataframe, predictions_dataframe, regularization_dataframe
+from species_prediction.iris import iris_dataframe, predictions_dataframe, regularization_dataframe
 
 # Histograms:
 measurements = ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']
