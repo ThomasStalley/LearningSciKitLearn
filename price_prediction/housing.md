@@ -5,7 +5,7 @@ Goal:
 - Using a model trained on California housing data, we want to predict the house price, given all other house
   attributes (detailed below).
 
-Housing Data:
+Housing data cols:
 
 - longitude
 - latitude
