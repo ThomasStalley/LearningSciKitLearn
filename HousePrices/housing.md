@@ -33,7 +33,7 @@ Model Accuracies:
 - scaled_linear_regression_model: 65.62%
 - random_forest_model: 80.34%
 - scaled_random_forest_model: 80.24%
-- cleam_random_forest_model: 80.38%
+- clean_random_forest_model: 80.38%
 
 Source:
 
