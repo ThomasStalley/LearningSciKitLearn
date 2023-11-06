@@ -41,5 +41,9 @@ Source:
 
 - Data: [Adult income dataset](https://www.kaggle.com/datasets/wenruliu/adult-income-dataset)
 
+Plots:
+
+Heatmap showing correlation between income attributes:
 ![income_heatmap](income_heatmap.png)
+Confusion matrix showing predicted incomes vs true incomes:
 ![income_matrix](income_matrix.png)
