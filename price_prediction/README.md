@@ -40,3 +40,10 @@ Source:
 - Course: [House Price Prediction in Python](https://www.youtube.com/watch?v=Wqmtf9SA_kk)
 
 - Data: [California Housing Prices](https://www.kaggle.com/datasets/camnugent/california-housing-prices/)
+
+![housing_histograms](housing_histograms.png)
+![housing_heatmap](housing_heatmap.png)
+![housing_scatter](housing_scatter.png)
+![predictions_scatter](predictions_scatter.png)
+Values capped at $500k in raw data:
+![value_scatter](value_scatter.png)
