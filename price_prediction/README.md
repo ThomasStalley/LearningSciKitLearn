@@ -41,8 +41,13 @@ Source:
 
 - Data: [California Housing Prices](https://www.kaggle.com/datasets/camnugent/california-housing-prices/)
 
+Plots:
+
+Histograms of housing attributes:
 ![housing_histograms](housing_histograms.png)
+Heatmap of housing attributes correlations:
 ![housing_heatmap](housing_heatmap.png)
+Geographical scatter plot, with hue showing house value:
 ![housing_scatter](housing_scatter.png)
 Values capped at $500k in raw data:
 ![value_scatter](value_scatter.png)
