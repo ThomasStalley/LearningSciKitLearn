@@ -27,10 +27,13 @@ Notes:
 - One hot encoding is very useful for converting one text category column into n binary columns.
 - We can use pandas corr() to investigate correlations between all columns/attributes. Or simply one chosen column vs
   the rest (allowing us to drop columns with low correlation to target attribute).
+- Grid search allows us to iterate through all combinations of chosen model parameters, and find the best combination.
+  Doing so here bumped our model accuracy from 84.81% to 86.24%.
 
 Model Accuracies:
 
-- x.
+- Defualt random forest classifier: 84.81%
+- Optimised random forest classifier: 86.24%
 
 Source:
 
