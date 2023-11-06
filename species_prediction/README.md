@@ -40,3 +40,16 @@ Key Numbers:
 Source:
 
 - [Intro to Machine Learning with Python Course - The Iris Dataset](https://www.youtube.com/playlist?list=PLMAyPTgGwv2DUV6DZib9eMetsTTX87JNr)
+
+Plots:
+
+Iris measurement histograms:
+![measurement_histogram](measurement_histogram.png)
+Measurement vs Species scatter graphs:
+![measurement_species_scatter.png](measurement_species_scatter.png)
+Species pairplot graphs:
+![species_pairplots.png](species_pairplots.png)
+Regularization vs Model Accuracy scatter graph:
+![regularization.png](regularization.png)
+Species Prediction Scatter Graph:
+![prediction.png](prediction.png)
