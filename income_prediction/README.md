@@ -24,7 +24,9 @@ Personal data cols:
 
 Notes:
 
-- x.
+- One hot encoding is very useful for converting one text category column into n binary columns.
+- We can use pandas corr() to investigate correlations between all columns/attributes. Or simply one chosen column vs
+  the rest (allowing us to drop columns with low correlation to target attribute).
 
 Model Accuracies:
 
