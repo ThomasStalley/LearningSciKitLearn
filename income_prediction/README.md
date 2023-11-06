@@ -40,3 +40,6 @@ Source:
 - Course: [Income Prediction Machine Learning Project in Python](https://www.youtube.com/watch?v=dhoKFqhVJu0)
 
 - Data: [Adult income dataset](https://www.kaggle.com/datasets/wenruliu/adult-income-dataset)
+
+![income_heatmap](income_heatmap.png)
+![income_matrix](income_matrix.png)

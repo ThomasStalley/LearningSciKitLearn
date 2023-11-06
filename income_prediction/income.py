@@ -43,18 +43,24 @@ random_forest.fit(train_x, train_y)
 random_forest_score = random_forest.score(test_x, test_y)
 print(f"random_forest score: {random_forest_score * 100:.2f}%")
 
-# Grid search to find optimised model:
-param_grid = {
-    "n_estimators": [50, 100, 250],
-    "max_depth": [5, 10, 30, None],
-    "min_samples_split": [2, 4],
-    "max_features": ['sqft', 'log2'],
-}
-grid_search = GridSearchCV(estimator=RandomForestClassifier(), param_grid=param_grid, verbose=10)
-grid_search.fit(train_x, train_y)
-
-# Optimised random forest classifier:
-opt_random_forest = grid_search.best_estimator_
+# # Grid search to find optimised model:
+# param_grid = {
+#     "n_estimators": [50, 100, 250],
+#     "max_depth": [5, 10, 30, None],
+#     "min_samples_split": [2, 4],
+#     "max_features": ['sqft', 'log2'],
+# }
+# grid_search = GridSearchCV(estimator=RandomForestClassifier(), param_grid=param_grid, verbose=10)
+# grid_search.fit(train_x, train_y)
+#
+# # Optimised random forest classifier:
+# opt_random_forest = grid_search.best_estimator_
+opt_random_forest = RandomForestClassifier(
+    max_depth=30,
+    max_features='log2',
+    min_samples_split=4,
+    n_estimators=250,
+)
 opt_random_forest.fit(train_x, train_y)
 opt_random_forest_predictions = opt_random_forest.predict(test_x)
 optimised_random_forest_score = opt_random_forest.score(test_x, test_y)
