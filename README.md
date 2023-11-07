@@ -22,3 +22,11 @@ Open source, commercially usable - BSD license
 
 
 """
+
+
+---
+
+
+- Iris classification.
+- House value prediction.
+- Personal income prediction.
