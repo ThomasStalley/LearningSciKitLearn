@@ -22,14 +22,3 @@ Open source, commercially usable - BSD license
 
 
 """
-
-
----
-
-
-Mini Projects:
-
-
-- Iris classification.
-- House value prediction.
-- Personal income prediction.
