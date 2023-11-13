@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from species_prediction.iris import iris_dataframe, predictions_dataframe, regularization_dataframe
+from LearningSciKitLearn.SpeciesPrediction.iris import iris_dataframe, predictions_dataframe, regularization_dataframe
 
 
 def format_column_name_lower(name):

@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from price_prediction.housing import housing_data, train_data, y_test_data, random_forest_model_predictions
+from LearningSciKitLearn.PricePrediction.housing import housing_data, train_data, y_test_data, random_forest_model_predictions
 
 
 # Histogram grid of training housing data:
