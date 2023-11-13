@@ -39,16 +39,19 @@ plt.tight_layout()
 plt.show()
 
 # Cross validation:
-data = predictions_dataframe
+plt.rcParams["font.serif"] = ["Times New Roman"]
+plt.rcParams["font.family"] = "serif"
+
 _, axs = plt.subplots(nrows=1, ncols=2, figsize=(12, 6))
 style = predictions_dataframe["correct prediction"].apply(lambda x: "X" if not x else "o")
 
-sns.scatterplot(ax=axs[0], x="petal length (cm)", y="petal width (cm)", data=data, hue="prediction label", style=style)
-axs[0].set_title("Species Prediction"), axs[0].legend(title='Predicted Label'.lower(), loc='upper left',
-                                                      bbox_to_anchor=(1, 1))
+sns.scatterplot(ax=axs[0], x="petal length (cm)", y="petal width (cm)", data=predictions_dataframe, hue="prediction label", style=style)
+axs[0].set_title("Species Prediction", fontweight='bold', fontstyle='italic', fontsize=12)
+axs[0].legend(title='Predicted Label', loc='upper left', bbox_to_anchor=(1, 1))
 
-sns.scatterplot(ax=axs[1], x="petal length (cm)", y="petal width (cm)", data=data, hue="target name")
-axs[1].set_title("True Species"), axs[1].legend(title='True Label'.lower(), loc='upper left', bbox_to_anchor=(1, 1))
+sns.scatterplot(ax=axs[1], x="petal length (cm)", y="petal width (cm)", data=predictions_dataframe, hue="target name")
+axs[1].set_title("True Species", fontweight='bold', fontstyle='italic', fontsize=12)
+axs[1].legend(title='True Label', loc='upper left', bbox_to_anchor=(1, 1))
 
 plt.tight_layout()
 plt.show()

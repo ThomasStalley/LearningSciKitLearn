@@ -2,23 +2,33 @@
 
 [scikit-learn.org](https://scikit-learn.org/)
 
+---
 
-"""
+**_Iris Species Prediction:_**
 
+- Using a model trained on Iris flower measurements (petal length, petal width, sepal legth, speal width) we predict the
+  species.
 
-Machine Learning in Python
+Species prediction scatter Graph:
+![prediction.png](species_prediction%2Fprediction.png)
+more plots in species_prediction directory.
 
+---
 
-Simple and efficient tools for predictive data analysis
+**_House Value Prediction:_**
 
+- Using a model trained on California housing data (bedrooms, bathrooms, lat, lng...), we predict the house value.
 
-Accessible to everybody, and reusable in various contexts
+Values capped at $500k in raw data, leading to anomalous predictions:
+![predictions_scatter](price_prediction/predictions_scatter.png)
+more plots in price_prediction directory.
 
-    
-Built on NumPy, SciPy, and matplotlib
+---
 
+**_Personal Income Prediction:_**
 
-Open source, commercially usable - BSD license
+- Using a model trained on various personal attributes (age, gender, education...), we predict a person's income.
 
-
-"""
+Confusion matrix showing predicted incomes vs true incomes:
+![income_matrix](income_prediction/income_matrix.png)
+more plots in income_prediction directory.
