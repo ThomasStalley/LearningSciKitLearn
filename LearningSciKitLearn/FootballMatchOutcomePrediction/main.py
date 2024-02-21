@@ -2,10 +2,10 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, precision_score
 
-from LearningSciKitLearn.FootballAnalysis.util import mapping, rolling_averages, make_predictions
+from LearningSciKitLearn.FootballMatchOutcomePrediction.util import mapping, rolling_averages, make_predictions
 
 # Get data from local csv file:
-matches_df = pd.read_csv("FootballAnalysis/matches.csv", index_col=0)
+matches_df = pd.read_csv("matches.csv", index_col=0)
 
 # Missing data from relegated teams, and liverpool 2021:
 matches_per_team, teams, seasons = 38, 20, 2
